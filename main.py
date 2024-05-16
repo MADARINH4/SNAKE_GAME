@@ -105,7 +105,7 @@ window.geometry(f"{window_width}x{window_height}+{x}+{y}")
 
 window.bind('<a>', lambda event: new_direction.set('left'))
 window.bind('<d>', lambda event: new_direction.set('right'))
-window.bind('<w>', lambda event: new_direction.set('up'))
+window.bind('<w>', lambda event: new_direction.set('up')) 
 window.bind('<s>', lambda event: new_direction.set('down'))
 window.bind('<Left>', lambda event: new_direction.set('left'))
 window.bind('<Right>', lambda event: new_direction.set('right'))
